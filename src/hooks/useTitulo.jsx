@@ -3,7 +3,7 @@ import { useEffect } from "react"
 const useTitulo = (textoTitulo = 'Sin titulo') => {
 
     useEffect(() => {
-        document.title = `Educación IT - ${textoTitulo}`
+        document.title = `Esencia Bella - ${textoTitulo}`
     }, [])
 
 }

@@ -3,7 +3,9 @@ import Inicio from "../pages/Inicio"
 import Alta from "../pages/Alta"
 import Nosotros from "../pages/Nosotros"
 import Contacto from "../pages/Contacto"
-import Noencontrado from "../pages/NoEncontrado"
+import NoEncontrado from "../pages/NoEncontrado"
+import Carrito from "../pages/Carrito"
+
 const Rutas = () => {
 
     const routes = useRoutes(
@@ -25,12 +27,17 @@ const Rutas = () => {
                 element: <Contacto />
             },
             {
+                path: '/carrito',
+                element: <Carrito />
+            },
+            {
                 path: '*',
-                element: <Noencontrado/>
+                element: <NoEncontrado />
             }
         ]
     )
 
-    return routes 
+    return routes
 }
+
 export default Rutas

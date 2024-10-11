@@ -1,0 +1,176 @@
+.section-cards__nosotros {
+    background-color: #FFFFFF;
+    display: inline-block;
+
+    .cards-container__nosotros {
+        gap: 5rem;
+        margin-top: 10px;
+        height: 200%;
+        .card_nosotros{
+            width: 200px;
+        }
+        .card__article__nosotros{
+            width: 700%;
+           }
+
+            .card__image-container1{
+                box-sizing: content-box;
+                width: 400px;
+                margin-top: 15px;
+                margin-bottom: 70px;
+                margin-left: 70px
+            }
+            .card__image-container2{
+                box-sizing: content-box;
+                width: 400px;
+                margin-left: 550%;
+                
+            }
+            .card__image-container3{
+                box-sizing: content-box;
+                width: 50%;
+                height: 30%;
+                margin-top: 15px;
+                
+                img {
+                    width: 100%; 
+                    height: auto; 
+                    object-fit: cover; 
+                   
+                  }
+            }
+                }
+
+            }
+    
+    .card__description_nosotros1{
+        position: absolute;
+        left: 35%;
+        margin-top: -500px;
+        margin-bottom: 10px;
+        margin-right: 35px;
+
+         p {
+            margin-top: 5px;
+             margin-bottom: 14px;
+             font-weight: 300;
+             font-size: 35px;
+             font-style: italic;
+         }
+        }
+        .card__description_nosotros2{
+            position: absolute;
+            left: 5%;
+            margin-top: -250px;
+            margin-bottom: 10px;
+             p {
+                margin-top: -10%;
+                margin-right: 40%;
+                 font-weight: 300;
+                 font-size: 35px;
+                 font-style: italic;
+             }
+            }
+            .card__description_nosotros3{
+                position: absolute;
+                left: 55%;
+                margin-top: -280px;
+                margin-bottom: 10px;
+                margin-right: 60px;
+
+                 p {
+                     font-weight: 300;
+                     font-size: 35px;
+                     font-style: italic;
+                 }
+                }
+
+                @media screen and (max-width: 768px) 
+                    {
+                                
+                    .section-cards__nosotros {
+                        border-color: red($color: #000000);
+                        background-color: #FFFFFF;
+                        display: inline-block;
+                        .card__heading_nosotros {
+                            width: 300%;
+                        }
+
+                        .cards-container__nosotros {
+                            margin-top: 10px;
+                            height: 100%;
+                            .card_nosotros{
+                                width: 50px;
+                            }
+                            .card__article__nosotros{
+                                width: 500%;
+                               }
+                    
+                                .card__image-container1{
+                                    box-sizing: content-box;
+                                    height: 400px;
+                                    margin-top: 15px;
+                                    margin-bottom: 70px;
+                                    margin-left: 30px;
+                                }
+                                .card__image-container2{
+                                    box-sizing: content-box;
+                                    height: 250px;
+                                    width: 280px;
+                                    margin-left: 450px;
+                                }
+                                .card__image-container3{
+                                    box-sizing: content-box;
+                                    height: 250px;
+                                    width: 280px;
+                                    margin-left: 20px;
+                                }
+                                .card__description_nosotros1{
+                                    position: absolute;
+                                    left: 60%;
+                                    margin-top: -500px;
+                                    margin-bottom: 10px;
+                                    margin-right: 70px;
+                            
+                                     p {
+                                        margin-top: 90px;
+                                         margin-bottom: 14px;
+                                         font-weight: 300;
+                                         font-size: 20px;
+                                         font-style: italic;
+                                     }
+                                    }
+                                    .card__description_nosotros2{
+                                        position: absolute;
+                                        left: 10px;
+                                        margin-top: -250px;
+                                        margin-bottom: 10px;
+                                         p {
+                                            margin-top: 40px;
+                                            margin-left: 20px;
+                                            margin-bottom: 10px;
+                                            margin-right: 50%;
+                                             font-weight: 300;
+                                             font-size: 20px;
+                                             font-style: italic;
+                                         }
+                                        }
+                                        .card__description_nosotros3{
+                                            padding: 20px 20px;
+                                            position: absolute;
+                                            margin-top: -250px;
+                                            margin-bottom: 10px;
+                                            margin-right: 0px;
+                                        
+                                             p {
+                                                margin-top:40px;
+                                                 font-weight: 300;
+                                                 font-size: 20px;
+                                                 font-style: italic;
+                                                 margin-right:-20px ;
+                                             }
+                                            }                            
+}
+}
+}
+                

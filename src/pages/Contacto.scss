@@ -1,0 +1,94 @@
+
+.information {
+    background-color: #ffc0cb; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 500px;
+    margin: 20px auto; 
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .box {
+    border: 1px solid #ccc; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+ 
+  legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .label_form {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+  .input, .input-a, .consulta {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .consulta {
+    padding: 15px; 
+  }
+  
+
+  button {
+    padding: 10px 20px;
+    border: 1px gray;
+    margin-bottom: 1px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: rosybrown;
+    color: azure;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  button:hover {
+    background-color: palevioletred;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:re; 
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+
+  .submit-button:hover {
+    background-color: palevioletred;
+  }
+  
+
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  

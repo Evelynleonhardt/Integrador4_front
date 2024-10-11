@@ -1,8 +1,8 @@
 const menuItems = [
-    { nombre: 'Inicio', ruta: '/'},
-    { nombre: 'Alta', ruta: '/alta'},
-    { nombre: 'Nosotros', ruta:'/nosotros'},
-    { nombre: 'Contacto', ruta:'/contacto'},
+    { id: 1, nombre: 'Inicio', ruta: '/'},
+    { id: 2,nombre: 'Nosotros', ruta:'/nosotros'},
+    { id: 3,nombre: 'Contacto', ruta:'/contacto'},
+    { id: 4,nombre: 'Alta', ruta: '/alta'},
 ]
 
 export default menuItems

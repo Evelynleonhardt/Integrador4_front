@@ -1,0 +1,18 @@
+.img-row {
+    width: 50px;
+}
+
+.btn-editar {
+    background-color: #ffdf00; 
+    color: #333; /* Texto oscuro para contraste */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #f7dc6f; /* Amarillo más oscuro al pasar el mouse */
+    }
+  }

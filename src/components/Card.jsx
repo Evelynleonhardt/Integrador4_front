@@ -1,23 +1,33 @@
+import { useContext } from 'react';
 import './Card.scss'
+import CarritoContext from '../context/CarritoContext';
 
-const Card = () => {
+const Card = ( { producto } ) => {
+
+  const { agregarProductoAlCarritoContext } = useContext(CarritoContext)
+
+  const handleAgregar = (producto) => {
+    console.log('Agregando el producto al carrito...')
+    agregarProductoAlCarritoContext(producto)
+  }
+
   return (
     <div className="card">
       <article className="card__article">
         <div className="card__image-container">
           <img
-            src="img/apple-iphone-11-pro-max.jpg"
-            alt="Iphone 11 Pro Max"
+            src={producto.foto}
+            alt={producto.nombre}
             className="card__image"
           />
         </div>
         <div className="card__content">
-          <h2 className="card__heading">Iphone 11 Pro Max</h2>
+          <h2 className="card__heading">{producto.nombre}</h2>
           <div className="card__description">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-              error fugiat placeat facere quasi illum?
+              {producto.detalles}
             </p>
+            <button className="btn-agregar"onClick={() => handleAgregar(producto)}>Agregar</button>
           </div>
         </div>
       </article>
