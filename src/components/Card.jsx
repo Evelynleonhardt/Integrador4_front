@@ -26,7 +26,7 @@ const Card = ( { producto } ) => {
           <div className="card__description">
             <p>
               {producto.detalles}
-            </p>
+            </p>s
             <button className="btn-agregar"onClick={() => handleAgregar(producto)}>Agregar</button>
           </div>
         </div>
